@@ -1,0 +1,2226 @@
+@charset "utf-8";
+/*
+Theme Name: eeevo japan go-malaysia website
+Theme URI: http://www.go-malaysia.info/
+Description: This is our original theme.
+Author: eeevo malaysia Sdn Bhd
+Author URI:　http://www.go-malaysia.info/
+Version:1.0
+*/
+
+/* header */
+body {
+  background-image: url(./images/background.png);
+  font-size: 15px;
+  font-family:arial, sans-serif;
+  margin: 8px;
+  -webkit-text-size-adjust: 100%;
+}
+input[type="submit"],
+input[type="button"] {
+  border-radius: 10px;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
+}
+#main {
+  margin: 5px auto;
+  width: 980px;
+  /*width:80%;*/
+  padding-bottom: 30px;
+}
+img {
+	border-style:none;
+}
+/* 20190521 add Naru */
+b, strong {
+  font-weight: bold;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: .83em 0;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+section.entry-content p {
+  margin: 1em 0;
+}
+/* 20190612 add naru */
+.single-jobsearch-link-eyecatch {
+  margin: 50px 0 0;
+}
+.single-jobsearch-link-eyecatch a img {
+  border-radius: 10px;
+}
+  .jobsearch-link-cont {
+    width: 60%;
+    margin: 20px auto 0;
+  }
+  .jobsearch-link-cont a {
+    text-decoration: none;
+  }
+  .single-jobsearch-link {
+    padding: 12px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgb(204,0,0);
+    box-shadow: 0px 7px 0px #444;
+    -webkit-box-shadow: 0px 7px 0px #444;
+    -moz-box-shadow: 0px 7px 0px #444;
+  }
+    .single-jobsearch-link:hover {
+      box-shadow: 0px 3px 0px #444;
+      -webkit-box-shadow: 0px 3px 0px #444;
+      -moz-box-shadow: 0px 3px 0px #444;
+      margin: 24px auto -4px;
+    }
+  .single-jobsearch-recommend-comment {
+    margin: 20px 0 0;
+  }
+@media all and (min-width: 0) and (max-width: 640px) {
+  .jobsearch-link-cont {
+    width: 90%;
+  }
+}
+ul {
+  list-style: disc;
+  padding: 0 0 0 20px;
+}
+li {
+  display: list-item;
+}
+a img:hover {
+  opacity: .7;
+}
+/* header */
+#header{
+  width:auto;
+}
+.logo{
+  position: relative;
+  float: left;
+  margin: 15px 5px 5px 5px;
+}
+.header-nav{
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  float: right;
+  border-radius: 5em 5em 5em 5em;
+}
+.header-nav a{
+  margin :10px;
+  font-size: 14px;
+}
+.header-adsence{
+  float: right;
+  margin: 0px 5px;
+}
+/* top画像 */
+.iview-caption.caption25 {
+	color: white;
+	text-shadow: none;
+	font-size: 17px;
+	font-weight: bold;
+	width: 270px !important;
+}
+.iview-caption.caption26 {
+	color: yellow;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 17px;
+	font-weight: bold;
+}
+.iview-caption.caption27 {
+	color: white;
+	text-shadow: none;
+	font-size: 17px;
+	font-weight: bold;
+	width: 320px !important;
+}
+.iview-caption.caption28 {
+	color: yellow;
+	text-shadow: none;
+	font-size: 17px;
+	font-weight: bold;
+	width: 250px !important;
+}
+/* Navigation */
+navigation {
+  //position:relative;
+  z-index:10;
+  background-color: rgb(51,51,51);
+  float:left;
+  width:99.5%;
+  height:35px;
+  font-weight: bold;
+  box-shadow: 0px 10px 0px rgb(204,0,0);
+  margin-bottom: 10px;
+}
+navigation ul {
+  text-align:center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+navigation ul li {
+  float:left;
+  list-style:none;
+  text-align:center;
+  font-family:arial, sans-serif;
+  display: block;
+}
+navigation ul li a{
+  text-decoration:none;
+  text-shadow:1px 1px 2px #000;
+  display:block;
+  line-height:2.2;
+  color: #FFFFFF;
+}
+navigation ul li a:hover {
+  color:red;
+  background-color: #FFFFFF;
+  margin: auto 0px auto 0px;
+  box-shadow: 0px 10px 0px black;
+}
+/* Navigation Bar Item*/
+/* Navigation */
+navigation {
+  //position:relative;
+  z-index:10;
+  background-color: rgb(51,51,51);
+  float:left;
+  width:99.5%;
+  height:35px;
+  font-weight: bold;
+  box-shadow: 0px 10px 0px rgb(204,0,0);
+  margin-bottom: 10px;
+}
+navigation ul {
+  text-align:center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+navigation ul li {
+  float:left;
+  list-style:none;
+  text-align:center;
+  font-family:arial, sans-serif;
+  display: block;
+}
+navigation ul li a{
+  text-decoration:none;
+  text-shadow:1px 1px 2px #000;
+  display:block;
+  line-height:2.2;
+  color: #FFFFFF;
+}
+navigation ul li a:hover {
+  color:red;
+  background-color: #FFFFFF;
+  margin: auto 0px auto 0px;
+  box-shadow: 0px 10px 0px black;
+}
+/* Navigation Bar Item*/
+.home a{
+  background-image: url("./images/nav-icons/home.png");
+  background-repeat: no-repeat;
+  background-position: 16% 46%;
+  padding: 0 0 0 4%;
+}
+.home a:hover{
+  background-image: url("./images/nav-icons/home 2.png");
+}
+.travel a{
+  background-image: url("./images/nav-icons/travel.png");
+  background-repeat: no-repeat;
+  background-position: 14% 45%;
+  padding: 0 0 0 4%;
+}
+.travel a:hover{
+  background-image: url("./images/nav-icons/travel 2.png");
+}
+.food a{
+  background-image: url("./images/nav-icons/gourmet.png");
+  background-repeat: no-repeat;
+  background-position: 14% 45%;
+  padding: 0 0 0 4%;
+}
+.food a:hover{
+  background-image: url("./images/nav-icons/gourmet 2.png");
+}
+.news a{
+  background-image: url("./images/nav-icons/news.png");
+  background-repeat: no-repeat;
+  background-position: 8% 38%;
+}
+.news a:hover{
+  background-image: url("./images/nav-icons/news 2.png");
+  background-repeat: no-repeat;
+  background-position: 8% 38%;
+}
+.shopping a{
+  background-image: url("./images/nav-icons/shopping.png");
+  background-repeat: no-repeat;
+  background-position: 10% 40%;
+  padding: 0 0 0 4%;
+}
+.shopping a:hover{
+  background-image: url("./images/nav-icons/shopping 2.png");
+}
+.study a{
+  background-image: url("./images/nav-icons/study.png");
+  background-repeat: no-repeat;
+  background-position: 10% 41%;
+  padding: 0 0 0 4%;
+}
+.study a:hover{
+  background-image: url("./images/nav-icons/study 2.png");
+}
+.longstay a{
+  background-image: url("./images/nav-icons/long stay.png");
+  background-repeat: no-repeat;
+  background-position: 6% 42%;
+  padding: 0 0 0 4%;
+}
+.longstay a:hover{
+  background-image: url("./images/nav-icons/long stay 2.png");
+}
+.business a{
+  background-image: url("./images/nav-icons/business.png");
+  background-repeat: no-repeat;
+  background-position: 13% 43%;
+  padding: 0 0 0 5%;
+}
+.business a:hover{
+  background-image: url("./images/nav-icons/business 2.png");
+}
+.jobsearch a{
+  background-image: url("./images/nav-icons/jobsearch.png");
+  background-repeat: no-repeat;
+  background-position: 16% 42%;
+  background-size: 17%;
+  padding: 0 0 0 3%;
+}
+.jobsearch a:hover{
+  background-image: url("./images/nav-icons/jobsearch 2.png");
+}
+/* footer */
+footer{
+  width:99%;
+  //height:64px;
+  background-color: rgb(51,51,51);
+  padding:20px 0 20px 0;
+  overflow-y:hidden;
+  text-align: center;
+  border-width: 1px;
+  border-color:#000000;
+  border-style: solid;
+  box-shadow: 0px -13px 0px rgb(204,0,0);
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+footer a{
+  color: #FFFFFF;
+  margin-left: 30px;
+  text-decoration: none;
+}
+/* content */
+#content{
+  position: relative;
+  width: 99.4%;
+  z-index: 9;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 10px 0px 20px 0px;
+  float: left;
+}
+.sideBar{
+  float: right;
+  width: 300px;
+}
+.sideBar-adv-big{
+  float: right;
+  margin-bottom: 20px;
+}
+.sideBar-adv-small{
+  float: right;
+  margin-bottom: 10px;
+}
+li#text-2{
+  list-style: none;
+}
+.facebook{
+  width: 300px;
+  height:300px;
+  float: right;
+  border-width: 1px;
+  border-style: solid;
+}
+.fb-like-box {
+	margin-bottom: 6px;
+}
+.mainContent{
+  float: left;
+  width: 660px;
+  margin-right: 5px;
+}
+.content-banner{
+  position: static;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.content-latestNew{
+  position: static;
+  float: left;
+  margin-bottom: 10px;
+  width:100%;
+}
+.content-latestNew-Item{
+  margin-left:10px;
+  margin-top: 10px;
+}
+.content-latestNew-Item a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.content-pickup-left{
+  position: static;
+  width: 320px;
+  /*height: 295px;*/
+  height: 100%;
+  margin: 10px 5px;
+  float: left;
+}
+.content-pickup-left-picture {
+  position: static;
+  width: 310px;
+  height: 200px;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.content-pickup-left-text {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.content-category-item{
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  float: left;
+  border-radius: 10px;
+  z-index: 11;
+}
+/* front-pageバナー用 */
+div.gourmet-front-banner {
+	width: 100%;
+	float: left;
+}
+/* categroy-topバナー用 */
+div.content-big-banner {
+	width: 100%;
+	float:left;
+	margin: 10px 0px;
+}
+.front-cat-travel {
+	background-image: url(./images/top-cat-travel.jpg);
+}
+.front-cat-gorumet {
+	background-image: url(./images/top-cat-gorumet.jpg);
+}
+.front-cat-shopping {
+	background-image: url(./images/top-cat-shopping.jpg);
+}
+.front-cat-study {
+	background-image: url(./images/top-cat-study.jpg);
+}
+.front-cat-longstay {
+	background-image: url(./images/top-cat-longstay.jpg);
+}
+.front-cat-news {
+	background-image: url(./images/top-cat-news.jpg);
+}
+.front-cat-business {
+	background-image: url(./images/top-cat-business.jpg);
+}
+.content-category-description{
+  z-index:12;
+  background-color: #FFFFFF;
+  color: black;
+	font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+img.categorytop-img {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 2px;
+	border-radius: 5px;
+}
+/* malaysia food introduction contents */
+.gourmet-category-item {
+	position: relative;
+	width: 200px;
+	height: 150px;
+	margin: 7px;
+	float: left;
+	border-radius: 10px;
+	z-index: 11;
+}
+.gourmet-cat-malay {
+	background-image: url(./images/malaycruisine.jpg);
+}
+.gourmet-cat-china {
+	background-image: url(./images/chinesecruisine.jpg);
+}
+.gourmet-cat-india {
+	background-image: url(./images/indiancruisine.jpg);
+}
+.gourmet-cat-japan {
+	background-image: url(./images/japanesefood.jpg);
+}
+.gourmet-cat-international {
+	background-image: url(./images/internationalfood.jpg);
+}
+.gourmet-cat-cafe {
+	background-image: url(./images/malaysiacafe.jpg);
+}
+.gourmet-cat-foodcourt {
+	background-image: url(./images/foodcourt.jpg);
+}
+.gourmet-cat-stalls {
+	background-image: url(./images/foodstall.jpg);
+}
+.gourmet-cat-bar {
+	background-image: url(./images/bar.jpg);
+}
+/* common used*/
+.title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-left:10px;
+  color: rgb(153,0,0);
+}
+.single-htitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left:10px;
+  color: rgb(153,0,0);
+	margin: 0px 0px 0px 10px;
+}
+.content-division{
+  width: 310px;
+  height: 7px;
+  background-image: url(./images/division.png);
+  background-repeat: no-repeat;
+}
+.single-htitle-division {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 5px;
+  float: left;
+  background-image: url(./images/division.png);
+  background-repeat: no-repeat;
+}
+/* Media Query */
+@media screen and (max-width: 750px) {
+  navigation ul li {
+    width:20%;
+  }
+  navigation{
+    height:100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  navigation ul li {
+    width:30%;
+    display: block;
+  }
+  navigation{
+    height:100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  navigation ul li {
+    width:40%;
+    display: block;
+  }
+  navigation{
+    height:100%;
+  }
+}
+@media screen and (max-width: 200px) {
+  navigation ul li {
+    width:100%;
+    display: block;
+  }
+  navigation{
+    height:100%;
+  }
+}
+@media screen and (max-width: 200px) {
+  navigation ul li {
+    width:auto;
+    display: block;
+  }
+
+  navigation{
+    height:100%;
+  }
+}
+/* search form */
+.screen-reader-text{
+  display: none;
+}
+.searchForm{
+  border-color:#4B7B9F;
+  border-width:1px;
+  margin:9px 29px 5px 5px;
+}
+#s{
+  width:120px;
+  border:0px solid;
+  height:18px;
+  padding:0px 0px;
+  float:left;
+  vertical-align:bottom;
+  float: left;
+  border-style:solid solid solid solid;
+  border-color:#4B7B9F;
+  border-width:1px;
+}
+#searchsubmit{
+  border-style: none;
+  background: url('./images/searchbutton3.gif') no-repeat;
+  width: 24px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align:bottom;
+  float: left;
+  text-indent: -9999px;
+}
+/* breadcrumbs list */
+.bread-clumb-location {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0px;
+}
+#bread-crumb {
+  font-size: 95%;
+  padding: 1px 0px 0px 0px;
+}
+#bread-crumb ul {
+  margin: 0;
+}
+#bread-crumb ul:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+#bread-crumb li {
+  float: left;
+  margin-top: 7px;
+}
+#bread-crumb li.sub {
+  padding-left: 10px;
+}
+#bread-crumb li.sub:before {
+  letter-spacing: 10px;
+  content: ">";
+}
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+#bread-crumb li.current {
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 300px;
+}
+/* Search Result */
+.search-article {
+  border-bottom: solid 1px #000000;
+  margin: 15px 0px 15px 0px;
+}
+.archive-search {
+  width: 69%;
+  padding-left: 10px;
+}
+ul.front-news-ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li.front-news-li {
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px 0px 5px 0px;
+	border-bottom: 1px dotted #c0c0c0;
+}
+span.news-detail-title {
+	padding-left: 5px;
+}
+span.news-date {
+	padding-right: 10px;
+	color: #0000CC;
+  font-weight: bold;
+}
+/* contact form */
+.form-inner {
+	margin: 0 auto;
+}
+.sent .form-inner {
+	display: none;
+}
+span.require {
+	color: red;
+	padding-left: 1px;
+}
+p.buttons-area {
+	text-align: center;
+}
+p.buttons-area-confirm {
+	text-align: center;
+}
+.contact-property {
+	margin: 3px 0px;
+	font-size: 12px;
+	text-align: left;
+}
+/* archive */
+div.posts {
+	width: 98%;
+	padding: 5px 6px;
+}
+div.gourmet-top-area {
+	margin-top: 10px;
+	width:100%;
+	height: 150px;
+}
+div.gourmet-top-area-picture {
+	display: table-cell;
+	float: left;
+}
+div.gourmet-top-area-text {
+	display: table-cell;
+	font-size: 20px;
+	height: 150px;
+	padding-left: 8px;
+	vertical-align: middle;
+}
+/* normal archive page */
+div.posts article {
+	border-bottom: solid 1px #000000;
+	height: 170px;
+	margin: 15px 0px 15px 0px;
+}
+.attachment-archive_thumbnail {
+	padding: 4px;
+	border: solid 1px #ddd;
+	float: left;
+}
+div.entry-header {
+	width: 430px;
+	height: 157px;
+	margin-left: 220px;
+  padding-left: 10px;
+}
+h1.entry-title, .entry-title {
+	font-size: 16px;
+	margin-top: 3px;
+}
+.entry-title {
+  margin: 0 0 6px;
+}
+div.excerpt-part {
+	width: 400px;
+	height: 120px;
+	font-size: 14px;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.excerpt-part-area-and-star-ver {
+	width: 400px;
+	height: 90px;
+	font-size: 14px;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.excerpt-part-areaver {
+	width: 400px;
+	font-size: 14px;
+	display: table-cell;
+}
+div.excerpt-part-area {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+h1.page-title-single {
+	margin: 5px 0px 2px 0px;
+}
+/* single-picture */
+.single-picture-text {
+	overflow:hidden;
+}
+.single-picture-text div {
+	display: table-cell;
+	vertical-align: top;
+}
+.single-title {
+	width: 100%;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.single-left-content {
+	float: left;
+	width: 49%;
+	margin-right: 5px;
+}
+.single-content-picture {
+	text-align: center;
+}
+.single-content-title-big {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+.single-left-content-content {
+	padding: 5px 10px;
+}
+.single-content-blank {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+}
+.single-img-nextto img {
+	margin: 0px 8px 0px 8px;
+	display: table-cell;
+	float: left;
+}
+.single-img-nextto div.nextto-text {
+	width: 310px;
+	display: table-cell;
+	margin: 0px 8px 0px 8px;
+	float: left;
+}
+.single-big-picture img {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+/* 2pictures next to */
+.single-img-text-nextto {
+	width: 310px;
+	height: 100%;
+	float: left;
+	margin: 5px 10px 0px 10px;
+}
+.picture-explain {
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+.picture-explain-nobold {
+	text-align: center;
+}
+.single-content-blank {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+}
+.single-img-text-nextto h3 {
+	text-align: center;
+	font-size: 17px;
+	margin: 0px 0px 5px 0px;
+}
+div.single-img-text-nextto p {
+	width: 100%;
+	display: block;
+	margin: 5px 0px;
+	font-size: 14px;
+}
+/* three picture pattern */
+div.three-pic-titlebanner {
+	width: 100%;
+	height: 43px;
+	float:left;
+}
+.three-partofone {
+	width: 200px;
+	float: left;
+	margin: 0px 10px;
+	font-size: 14px;
+}
+.three-picture-text {
+	float: left;
+	margin-bottom: 10px;
+}
+div.three-partofone-title {
+	width: 200px;
+	text-align: center;
+}
+div.three-partofone-title h2 {
+	font-size: 19px;
+	margin: 0px;
+	padding: 0px;
+}
+div.three-partofone-title h3 {
+	font-size: 15px;
+	margin: 0px 0px 3px 0px;
+	padding: 0px;
+}
+.kof-malay-chinese-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol04.png) url(./images/symbols/photo-book-symbol06.png);
+	z-index:1;
+	margin:170px 0px 0px 120px;
+}
+.kof-chinese-foodcourt-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol04.png) url(./images/symbols/photo-book-symbol05.png) url(./images/symbols/photo-book-symbol06.png);
+	z-index:1;
+	margin:170px 0px 0px 120px;
+}
+.kof-malay-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol06.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-nyonya-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol02.png) url(./images/symbols/photo-book-symbol06.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-indian-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol03.png) url(./images/symbols/photo-book-symbol06.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-chinese-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol04.png) url(./images/symbols/photo-book-symbol06.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-foodcourt-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol05.png) url(./images/symbols/photo-book-symbol06.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-malay:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png);
+	z-index:1;
+	margin:170px;
+}
+.kof-nyonya:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol02.png);
+	z-index:1;
+	margin:170px;
+}
+.kof-indian:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol03.png);
+	z-index:1;
+	margin:170px;
+}
+.kof-chinese:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol04.png);
+	z-index:1;
+	margin:170px;
+}
+.kof-foodcourt:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol05.png);
+	z-index:1;
+	margin:170px;
+}
+.kof-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol06.png);
+	z-index:1;
+	margin:170px;
+}
+.kof-malay-chinese:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol04.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-chinese-foodcourt:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol04.png) url(./images/symbols/photo-book-symbol05.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-malay-nyonya:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol02.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-malay-indian:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol03.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-chinese-nyonya:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol04.png) url(./images/symbols/photo-book-symbol02.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-malay-chinese-foodcourt:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol04.png) url(./images/symbols/photo-book-symbol05.png);
+	z-index:1;
+	margin:170px 0px 0px 120px;
+}
+.kof-malay-foodcourt:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol05.png) ;
+	z-index:1;
+	margin:170px 0px 0px 145px;
+}
+.kof-malay-foodcourt-hot:before{
+	position:absolute;
+	content: url(./images/symbols/photo-book-symbol01.png) url(./images/symbols/photo-book-symbol05.png) url(./images/symbols/photo-book-symbol06.png);
+	z-index:1;
+	margin:170px 0px 0px 120px;
+}
+/* food photo book contents */
+.food-and-fruit-content{
+	line-height: 1.4;
+	float: left;
+	margin-top: 0px;
+}
+.food-and-fruit-content-right{
+	margin-top:10px;
+	float:right;
+}
+.food-and-fruit-content-right a{
+	font-size:18px;
+	font-weight:bold;
+}
+/* food store introduce contents */
+.gourmet-store-content{
+  width: 300px;
+  height: 300px;
+  margin: 20px 10px 10px 10px;
+  float: left;
+}
+.gourmet-store-content-img{
+  position: static;
+  width: 300px;
+  height: 250px;
+  border-width: 1px;
+  border-style: solid;
+}
+.gourmet-store-content-title{
+  position: static;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.gourmet-store-description{
+  position: static;
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+/* single layout pattern A */
+.single-layouta-left {
+	width: 280px;
+	margin: 0px;
+	padding: 0px;
+}
+/*why-malaysia page*/
+.front-title {
+	background-color:#3796f7;
+	font-weight: bold;
+	color:#FFFFFF;
+	font-size:20px;
+	margin:auto;
+	padding: 5px 5px 5px 20px;
+}
+.content-title {
+	color: #3796f7;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 5px;
+	margin-bottom: 7px;
+	width: 660px;
+	border-bottom: 1px solid #3796f7;
+}
+.content-subtitle {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-left: 5px;
+	margin-bottom: 7px;
+}
+p.content-normal-p {
+	width: 650px;
+	display: block;
+	margin: 10px 0px 10px 5px;
+	font-size: 15px;
+}
+/* terms of use */
+table.page-content-table {
+	padding-left: 8px;
+}
+.td-vertical-top {
+	vertical-align: top;
+	width: 45px;
+}
+p.content-text {
+	padding-left: 8px;
+}
+/* latest-news list */
+.moreNews{
+  margin: 0px 0px 0px 5px;
+}
+.moreNews a{
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 512px;
+  padding: 8px 5px 5px 5px;
+  font-size: 14px;
+  color: blue;
+}
+.moreNews a:visited{
+  color:  blue;
+}
+.archive-latest-news ul li{
+  list-style: none;
+}
+.archive-latest-news ul{
+  left:0px;
+  padding:0px;
+  margin: 5px;
+}
+.archive-latest-news{
+  border-bottom: 1px dotted #2c3e50;
+}
+.archive-latest-news ul li a{
+  text-decoration: none;
+}
+.latest-new-article{
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px 0px 5px 0px;
+}
+.content-latestNew .title{
+  height: 39px;
+  line-height: 2;
+}
+div.news-year-select {
+	width: 100%;
+	float: left;
+	margin: 10px 3px 10px 0px;
+}
+div.news-year-select span {
+	display: table;
+	font-size: 14px;
+	padding: 0px 6px;
+	float: left;
+}
+/* archive ratest star */
+.excerpt-ratestar-including {
+	height: 100%;
+	position: relative;
+}
+.excerpt-ratestar-all {
+	position: absolute;
+	bottom: 0;
+}
+div.excerpt-ratestar-title {
+	font-size: 10px;
+	width: 85px;
+	height: 12px;
+	float: left;
+	background-color: #c0c0c0;
+	padding: 3px 0px 3px 3px;
+	margin: 6px 0px 0px 6px;
+}
+.excerpt-ratestar {
+	width: 90px;
+	float: left;
+	margin-left: 4px;
+	/*margin-bottom: 4px;*/
+	margin-top: 6px;
+}
+/* ratest star */
+div.ratestar-title {
+	width: 30%;
+	float: left;
+	background-color: #c0c0c0;
+	padding: 3px 0px 3px 3px;
+}
+div.ratestar {
+	width: 65%;
+	height: 28px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 6px;
+}
+/* normaly use */
+.widthmax {
+	width: 100%;
+}
+/* table */
+table.normal-table {
+	width: 98%;
+	margin: 0px auto 15px auto;
+	border-collapse: collapse;
+}
+table.normal-table, table.normal-table td, table.normal-table th {
+	border: 1px solid #c0c0c0;
+}
+table.normal-table td, table.normal-table th {
+	padding: 5px 10px;
+}
+table.normal-table th {
+	background-color: #deefff;
+}
+table.normal-table td {
+	background-color: #ffffff;
+}
+.margin-bottom {
+	margin-bottom: 20px;
+}
+.margin-top {
+	margin-top: 10px;
+}
+.floatright {
+    float: right;
+}
+.floatleft {
+	float: left;
+}
+/* table */
+table.single-table {
+    table-layout: fixed;
+	width: 98%;
+	border-collapse: collapse;
+}
+table.single-table, table.single-table td, table.single-table th {
+	border: 1px solid #c0c0c0;
+}
+table.single-table td, table.single-table th {
+    word-break: break-all;
+	padding: 5px 10px;
+}
+table.single-table th {
+	background-color: #deefff;
+}
+table.single-table td {
+	background-color: #ffffff;
+}
+table.single-table th.caption {
+	background-color: #A9A9A9;
+}
+table.single-table th.blank {
+	background-color: #ffffff;
+}
+.margin-custom {
+	margin: 0px 0px 10px 0px;
+}
+div.dotted-line {
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	border-bottom: 1px dotted #000000;
+	float: left;
+}
+.td-left {
+	text-align: left;
+}
+.td-right {
+	text-align: right;
+}
+.td-center {
+	text-align: center;
+}
+.borderRight {
+	border-right: 1px solid #000000;
+}
+/* 404 File Not Found */
+.title-404{
+  font-size: 72px;
+  text-shadow: 3px 3px 0px rgba(147, 150, 150, 1);
+}
+.BackHomePage{
+  background-image: url(./images/404-homepage.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px 5px 5px 5px;
+  width: 350px;
+  height: 40px;
+  line-height: 2;
+  color: #FFFFFF;
+  padding-left: 20px;
+  margin-left: 35%;
+  margin-top: 150px;
+  background-color: rgb(51,51,51);
+}
+.BackHomePage:hover{
+  background-image: url(./images/404-homepage-hover.png);
+  background-color: #FFFFFF;
+  color: #FF0000;
+}
+#content-404 a{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+#content-404{
+  text-align: center;
+  margin-top: 100px;
+}
+/* 404 search form */
+.search-404{
+  margin-left: 37%;
+  margin-top: 20px;
+}
+.search-404 .screen-reader-text{
+  display: none;
+}
+.search-404 .searchForm{
+  border-color:#4B7B9F;
+  border-width:1px;
+  margin:9px 29px 5px 5px;
+}
+.search-404 #s{
+  width:270px;
+  border:0px solid;
+  height:37px;
+  padding:0px 0px;
+  float:left;
+  vertical-align:bottom;
+  border-style:solid solid solid solid;
+  border-color:#4B7B9F;
+  border-width:1px;
+  font-size: 25px;
+}
+.search-404 #searchsubmit{
+  border-style: none;
+  background: url('./images/404-searchbutton.jpg') no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  vertical-align:bottom;
+  float: left;
+  text-indent: -9999px;
+  border: 0px;
+}
+/* used tag page */
+div.backbutton {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+/* used single page */
+div.backbutton-single {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+div.backbutton-single a {
+	display: table;
+}
+/* social button */
+.social_buttons {
+	list-style: none;
+	width: 100%;
+	text-align: right;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+}
+.social-blank {
+	width: 100%;
+	height: 10px;
+	float: left;
+}
+.social-button-left {
+	float: left;
+}
+.spMenu {
+	display: none;
+}
+/* マレーシア料理 in Japan */
+div.posts article.entry-article-table {
+  height: 80px;
+  margin: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #999;
+}
+.entry-header-table {
+  display: table;
+  width: 646px;
+}
+div.posts article.entry-article-table:first-child {
+  border-top: 1px solid #999;
+}
+.entry-header-table h2 {
+  display: table-cell;
+  vertical-align: middle;
+  width: 30%;
+  height: 80px;
+  margin: 0px;
+  padding: 5px;
+  border-left: 1px solid #999;
+  border-bottom: solid 1px #999;
+  font-size: 16px;
+}
+.entry-header-table .malaysia-food-japan-address {
+  display: table-cell;
+  vertical-align: middle;
+  width: 40%;
+  height: 80px;
+  padding: 5px;
+  border-left: 1px solid #999;
+  font-size: 16px;
+}
+.entry-header-table .malaysia-food-japan-tel {
+  display: table-cell;
+  vertical-align: middle;
+  width: 22%;
+  height: 80px;
+  padding: 5px;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  font-size: 17px;
+}
+.content-division + .entry-article-table {
+  border-top: 1px solid #999;
+}
+.title + .content-division {
+  margin-bottom: 20px;
+}
+.content-division {
+  margin-bottom: 20px;
+}
+.malaysia-food-in-japan-div>.entry-article-table:last-child {
+  margin-bottom: 30px;
+}
+@media all and (min-width: 0) and (max-width: 640px) {
+img {
+	max-width: 98%;
+	height: auto;
+}
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+#main {
+	width: 100%;
+}
+.mainContent {
+	float: none;
+	width: 100%;
+	margin: 0px;
+}
+.sideBar {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+/* ヘッダー関連 */
+.logo {
+	position: static;
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+/* 検索フォーム */
+.searchForm {
+	display: none;
+}
+/* ヘッダーメニュー */
+.header-nav {
+	display: none;
+}
+/* グローバルメニュー */
+navigation {
+	display: none;
+}
+.spMenu {
+	display: block;
+}
+.spMenu {
+	margin-bottom: 10px;
+	padding: 13px 0;
+	position: relative;
+	text-align: center;
+	background-color: rgb(51,51,51);
+	box-shadow: 0px 10px 0px rgb(204,0,0);
+	color: #ffffff;
+}
+
+	.spMenu a {
+		position: absolute;
+		right: 12px;
+		top: 8px;
+	}
+
+	.spMenu a img {
+		width: 30px;
+		margin-top: 3px;
+	}
+
+	.spMenu ul.dropMenu {
+		background-color: rgb(51,51,51);
+		display: none;
+		left: 0;
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		z-index: 100;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.spMenu .dropMenu li {
+		background-color: rgb(51,51,51);
+		border-top: 2px solid #fff;
+		line-height: 1.4;
+		text-align: left;
+	}
+
+	.spMenu .dropMenu li a {
+		color: #fff;
+		display: block;
+		position: inherit;
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+
+	/* パンくず */
+	.bread-clumb-location {
+		display: none;
+	}
+
+	/* フッター */
+	footer a {
+		margin-left: 0px;
+		display: block;
+	}
+
+	/* コンテンツエリア */
+
+	/* PICK UP */
+	.content-pickup-left {
+		width: auto;
+		display: block;
+		float: none;
+	}
+
+	.content-pickup-left:after {
+		height: 0;
+		visibility: hidden;
+		content: ".";
+		display: block;
+		clear: both;
+	}
+
+	.content-pickup-left-picture {
+		width: auto;
+		height: auto;
+		border-style: none;
+		text-align: center;
+	}
+
+	.content-pickup-left-text {
+		text-align: center !important;
+	}
+
+	/* top カテゴリー */
+	/* マレーシアグルメ紹介 */
+	.content-category-item, .gourmet-category-item {
+		margin: 11px auto;
+		float: none;
+	}
+
+	/* top 新着情報 */
+	span.news-date {
+		display: block;
+	}
+
+	span.news-detail-title {
+		padding-left: 0px;
+	}
+
+	.moreNews {
+		text-align: right;
+	}
+
+	.moreNews a {
+		margin-left: 0px;
+	}
+
+	/* アーカイブページ */
+	div.posts article {
+		height: auto;
+	}
+	/* 画像 */
+	.attachment-archive_thumbnail {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	/* 説明文 */
+	div.entry-header {
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	div.excerpt-part-areaver {
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	div.excerpt-part {
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+		height: auto;
+	}
+
+	div.excerpt-part-area-and-star-ver {
+		width: 100%;
+	}
+
+	.excerpt-ratestar-all {
+		position: static;
+	}
+
+	div.excerpt-ratestar-title {
+		width: 20%;
+		margin-left: 18%;
+	}
+
+	.excerpt-ratestar {
+		width: 50%;
+		text-align: left;
+	}
+
+	.excerpt-part-area-and-star-ver:after,
+	.excerpt-ratestar-all:after,
+	.excerpt-ratestar-including:after,
+	.excerpt-ratestar-including div:after {
+		height: 0;
+		visibility: hidden;
+		content: ".";
+		display: block;
+		clear: both;
+	}
+
+	/* おススメスポットページ */
+	.single-picture-text div {
+		display: block;
+		width: 100% !important;
+		height: auto !important;
+		text-align: center;
+		margin: 5px auto;
+	}
+
+	/* タイトル高さ調整 */
+	.content-latestNew .title {
+		height: auto;
+		line-height: 1;
+	}
+
+	/* 記事内 */
+	.single-img-text-nextto {
+		width: 100%;
+		height: 100%;
+		float: none;
+		margin: 5px auto;
+		text-align: center;
+	}
+
+	/* おススメ記事 */
+	.floatleft.recommend-page-font {
+		text-align: left;
+		width: 100%;
+	}
+
+	.floatleft.recommend-page-font p font {
+		font-size: 13px !important;
+	}
+
+	/* おススメ書籍・商品 */
+	.floatleft.amazon-shopping {
+		text-align: left;
+		width: 100%;
+	}
+
+	.floatleft.amazon-shopping table {
+		margin: 0 auto;
+	}
+
+	.floatleft.amazon-shopping table p {
+		margin: auto;
+	}
+
+	.floatleft.amazon-shopping table td {
+		display: block;
+	}
+
+	.mobiledispnone {
+		display: none;
+	}
+
+	/* ヘッダー広告 */
+	.header-adsence {
+		display: none;
+	}
+
+	/* 記事の隣通しのもの */
+	.single-img-nextto img {
+		margin: 0px auto;
+		display: block;
+		float: none;
+	}
+
+    /* 問い合わせフォーム */
+    .content_noSidebar {
+        width: auto;
+        float: none;
+    }
+
+    .form-inner input,
+    .form-inner textarea {
+        height: 20px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border linear .2s,box-shadow linear .2s;
+        -moz-transition: border linear .2s,box-shadow linear .2s;
+        -o-transition: border linear .2s,box-shadow linear .2s;
+        transition: border linear .2s,box-shadow linear .2s;
+    }
+
+    .form-inner input {
+        width: 20%;
+    }
+
+    .form-inner textarea {
+        width: 95%;
+        height: 90px;
+    }
+
+    .form-inner select {
+        width: 37%;
+    }
+
+    .form-inner table {
+        border: none;
+        margin-top: 20px;
+    }
+
+    .form-inner table tr {
+        display: block;
+        padding-bottom: 25px;
+    }
+
+    .form-inner table tr:last-child {
+        padding-bottom: 0px;
+    }
+
+    .form-inner table th {
+        display: block;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        text-align: left;
+    }
+
+    .form-inner table.normal-table td {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+    input[name="fyour-email"],
+    input[name="fyour-email_confirm"],
+    input[name="fadress"] {
+        width: 95%;
+    }
+
+    input[name="fname-sei"],
+    input[name="fname-mei"] {
+        width: 30%;
+    }
+
+    input[name="fagree[]"] {
+        width: auto;
+        height: auto;
+    }
+
+	/* food store introduce contents */
+	.gourmet-store-content {
+		display: block;
+	}
+
+    /*  */
+
+    div.posts article.entry-article-table {
+        height: auto;
+    }
+
+    .entry-header-table h2,
+    .entry-header-table .malaysia-food-japan-address,
+    .entry-header-table .malaysia-food-japan-tel {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* マレーシア料理 in Japan */
+
+    .entry-header-table {
+        width: auto;
+    }
+
+    div.posts article.entry-article-table {
+        border-bottom: none;
+    }
+
+    div.posts article.entry-article-table:first-child {
+        border-top: none;
+    }
+
+    .entry-header-table h2,
+    .entry-header-table .malaysia-food-japan-tel {
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+    }
+
+    .entry-header-table .malaysia-food-japan-address {
+        border-left: none;
+    }
+
+    .content-division + .entry-article-table {
+        border-top: none;
+    }
+    /*for SP*/
+   .gourmet-store-description {
+        position: static;
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+   }
+
+    .gourmet-store-content {
+        height: auto !important;
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .single-content-blank{
+        float: none;
+    }
+    .gourmet-store-content-img {
+        border-width: 0;
+        height: auto;
+   }
+/* 20200305 SP input NoPinchIn */
+   input {
+     font-size: 16px;
+   }
+}
+
+/*201706 add*/
+.coupon_link{
+    display: block;
+    position: relative;
+}
+
+.coupon_ribbon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.coupon_ribbon span{
+    display: inline-block;
+    position: absolute;
+    padding: 5px 0;
+    left: -40px;
+    top: 25px;
+    width: 160px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    background: #ff3e3e;
+    color: #fff;
+    letter-spacing: 1px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.coupon_btn{
+    font-size: 13px;
+    display: block;
+    padding: 8px 8px 4px;
+    text-decoration: none;
+    background: #f30c0c;
+    color: #FFF;
+    border-bottom: solid 6px #b70404;
+    border-radius: 6px;
+    font-weight:normal;
+    position:relative;
+    overflow: hidden;
+}
+
+.coupon_btn:before {
+    content:"";
+    display:block;
+    width:51px;
+    height: 29px;
+    background: url(http://www.go-malaysia.info/wp/wp-content/uploads/2018/06/click_icon.png) no-repeat;
+    background-size: 44px;
+    position: absolute;
+    top: 2px;
+    right: -2px;
+}
+
+.coupon_btn:after {
+    content:"";
+    display:block;
+    width:32px;
+    height: 41px;
+    background: url(http://www.go-malaysia.info/wp/wp-content/uploads/2018/06/yubi_icon.png) no-repeat;
+    background-size:32px;
+    position: absolute;
+    bottom: -14px;
+    right: -2px;
+}
+
+.coupon_btn span{
+    font-weight:bold;
+}
+
+
+
+
+/* 20190514 page-jobsearch Add Naru*/
+.jobsearch-eyecatch-comment h1 {
+  font-size: 1.2em;
+  margin: .83em 0 1.2em;
+}
+
+.page-jobsearch-title {
+  margin-top: 10px;
+}
+
+.jobsearch-cont p {
+  margin-block-start: 0!important;
+  margin-block-end: 0!important;
+}
+
+.jobsearch-cont {
+  margin: 20px 0 0;
+  min-height: 1px;
+}
+.jobsearch-cont:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+* html .jobsearch-cont {
+  height: 1px;
+}
+
+  .jobsearch-date {
+    width: 120px;
+    float: left;
+    margin: 3px 0 0;
+  }
+
+  .jobsearch-title {
+    width: 540px;
+    float: left;
+  }
+
+.jobsearch-more {
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+  .jobsearch-more a {
+    font-weight: bold;
+  }
+
+.jobsearch-recommend {
+  margin: 40px 0 0;
+}
+
+.jobsearch-description-comment {
+  clear: both;
+  margin: 0 3% 20px;
+}
+
+/* page送り PCのみcss*/
+.pagination {
+	clear: both;
+	padding: 20px 0;
+	position: relative;
+	font-size: 14px;
+	line-height: 14px;
+  text-align: center;
+}
+.pagination-box {
+	display: inline-block;
+}
+.pagination span, .pagination a {
+	display: block;
+	float: left;
+	margin: 2px;
+	padding: 3px 5px;
+	text-decoration: none;
+	width: auto;
+  border: 1px solid #BFBFBF;
+  /* 通常 */
+}
+.pagination a:hover{
+  border: 1px solid #000;
+  /* ホバー */
+}
+.pagination .current{
+  border: 1px solid #000;
+	padding: 3px 5px;
+  font-weight: bold;
+  /* 現在 */
+}
+
+
+.jobsearch-relation {
+  margin: 40px 0 0;
+}
+
+  .jobsearch-relation-cont {
+    margin: 0 0 20px;
+  }
+
+@media all and (min-width: 0) and (max-width: 640px) {
+  .jobsearch-cont {
+    margin: 0 0 20px;
+  }
+
+  .jobsearch-title {
+    width: inherit;
+  }
+
+  .jobsearch-relation {
+    margin: 50px 0 0;
+  }
+}
+
+/* 20191120 add Narusawa single recommend */
+@media all and (min-width: 641px) {
+.single-recommend {
+  clear: both;
+}
+
+.related {
+  padding: 24px 0;
+}
+  .related h3 {
+    margin-bottom: 4px;
+  }
+  .related-flexBox {
+    width: 660px;
+    display: flex;
+  }
+    .related-cont {
+      width: 150px;
+      margin: 8px 6.5px;
+    }
+      .related-catch img {
+        width: 150px;
+        height: 150px;
+      }
+}
+
+@media all and (min-width: 0) and (max-width: 640px) {
+  .single-recommend {
+    clear: both;
+  }
+
+  .related {
+    padding: 24px 0;
+  }
+    .related h3 {
+      text-align: center;
+    }
+      .related-cont {
+        border-bottom: 1px solid #777;
+        padding: 12px 0 8px;
+      }
+        .related-catch {
+          float: left;
+          width: 20%;
+        }
+        .related-title {
+          float: left;
+          width: 75%;
+          margin-left: 5%;
+        }
+}
+/* 20200113 Change Slider*/
+.slider{
+  display: none;
+}
+.slider.slick-initialized{
+  display: block;
+}
+
+/* 20200129 TOP SEO */
+.c-seo-text {
+  clear: both;
+  padding-top: 12px;
+  font-size: 12px;
+}
+.c-seo-text ul {
+  margin-bottom: 12px;
+}
+.c-seo-text--ttl {
+  font-weight: bold;
+  font-size: 15px;
+}
+.c-seo-text--desc {
+  margin-bottom: 8px;
+}
+
+/* 20200130 Single Contents */
+.entry-content {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.entry-content h2 {
+  margin: 2em 0 .83em;
+}
+
+/* 20200304 Job detail post page */
+.p-job-single--table {
+  margin-bottom: 32px;
+}
+.p-job-single--table tr {
+  border-bottom: 1px solid #888;
+}
+.p-job-single--table th {
+  padding: 10px 40px 10px 4px;
+}
+.p-job-single--table td {
+  padding: 10px 0;
+}
+.p-job-single--desc {
+
+}
+.p-job-single--requirements {
+  margin: 32px 0;
+}
+.p-job-single--language {
+
+}
+.p-job-single--contact {
+  margin: 40px 0;
+}
+.c-gender--item .wpcf7-list-item {
+  width: 70px;
+}
+.p-job-single--note {
+  margin-top: 12px;
+  text-align: center;
+  color: #f00;
+}
+.submit-button {
+  text-align: center;
+}
+input[type="submit"],
+input[type="button"] {
+  padding: 8px 32px;
+  font-size: 14px;
+  background: rgb(204,0,0);
+  color: #fff;
+  font-weight: bold;
+  width: inherit;
+  height: inherit;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: rgb(243,88,88);
+}
+.p-job-single--banner {
+  width: 100%;
+  margin-top: 40px;
+}
